@@ -34,7 +34,7 @@ $results = $getAllUsers->fetchAll(PDO::FETCH_ASSOC);
         <form action="displayUpdateForm.php" method="POST" class="mb-4" >
             
         <?php foreach($results as $result): ?>
-            <input  class="form-control d-none" id="id_annuaire" name="id_annuaire" value=<?php echo $id ?>>
+            <input  type='hidden' class="form-control d-none" id="id_annuaire" name="id_annuaire" value=<?php echo $id ?>>
             <div class="mb-3">
                 <label for="prenom" class="form-label">Prénom</label>
                 <input type="text" class="form-control" id="prenom" name="prenom" maxlength="40" minlength="2" value=<?php echo $result['prenom'] ?>>

@@ -108,7 +108,7 @@ $mysqlClient=null;
                 <li class="list-group-item"><strong>Description : </strong><?php echo $description ?></li>
                 <ul>
         </div>
-        <a name="buttonAnnuaire" id="buttonAnnuaire" class="btn btn-primary" href="annuaire.php" role="button">Retour à l'annuaire</a>
+        <a name="buttonAnnuaire" id="buttonAnnuaire" class="btn btn-primary" href="signup.php" role="button">Retour à l'annuaire</a>
     </div>
 
 </body>
