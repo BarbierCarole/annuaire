@@ -1,5 +1,13 @@
 <?php
 
+// const MYSQL_HOST = 'localhost';
+// const MYSQL_PORT = 3306;
+// const MYSQL_NAME = 'lzfw2493_annuaire';
+// const MYSQL_CHARSET = 'utf8';
+// const MYSQL_USER = 'lzfw2493_annuaire';
+// const MYSQL_PASSWORD = 'Carole83*';
+
+
 const MYSQL_HOST = 'localhost';
 const MYSQL_PORT = 3306;
 const MYSQL_NAME = 'repertoire';
